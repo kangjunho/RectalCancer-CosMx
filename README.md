@@ -1,7 +1,3 @@
-# RectalCancer-CosMx
-Reproducible spatial transcriptomic analysis of heterogeneous treatment response in rectal cancer using CosMx SMI.
-
-
 # Rectal Cancer Spatial Transcriptomics
 
 ### Spatial heterogeneity of treatment response using CosMx SMI
