@@ -1,6 +1,5 @@
-# Rectal Cancer Spatial Transcriptomics
 
-### Spatial heterogeneity of treatment response using CosMx SMI
+# Spatial transcriptomics of regional response heterogeneity in rectal cancer after neoadjuvant treatment
 
 ![Language](https://img.shields.io/badge/Language-R-276DC3)
 ![Platform](https://img.shields.io/badge/Platform-CosMx_SMI-teal)
@@ -9,25 +8,15 @@
 
 ## Overview
 
-This repository is intended to provide reproducible analytical
-workflows and source code for the spatial transcriptomic
-characterization of heterogeneous treatment response in
-rectal cancer using the CosMx Spatial Molecular Imager (SMI).
+This repository provides analytical workflows and source code associated with the manuscript entitled **"Spatial transcriptomics of regional response heterogeneity in rectal cancer after neoadjuvant treatment."**
 
-The study investigates histologically distinct response and
-non-response regions within a single rectal cancer specimen,
-with a focus on cellular composition, spatial organization,
-functional alterations, and cell–cell communication within
-the tumor microenvironment.
+This study investigates regional heterogeneity in treatment response within a single rectal cancer specimen using the CosMx Spatial Molecular Imager (SMI), focusing on cellular composition, spatial organization, functional alterations, and cell–cell communication in the tumor microenvironment.
 
 ## Study Objectives
 
-- Characterize cellular heterogeneity across treatment
-  response regions.
-- Investigate the spatial organization of tumor and
-  stromal cells.
-- Identify region-specific transcriptional and functional
-  alterations.
+- Characterize cellular heterogeneity across treatment response regions.
+- Investigate the spatial organization of tumor and stromal cells.
+- Identify region-specific transcriptional and functional alterations.
 - Explore spatially associated cell–cell communication.
 
 ## Analysis Workflow
@@ -48,41 +37,43 @@ flowchart TD
 
 ## Repository Structure
 
-Planned repository organization:
-
 ```text
 RectalCancer-CosMx/
 ├── scripts/
+│   ├── 00_Run_all_figures.R
+│   └── README.md
 ├── metadata/
+│   └── README.md
 ├── figures/
-├── README.md
+│   └── README.md
+├── .gitignore
 ├── LICENSE
-├── CITATION.cff
-├── sessionInfo.txt
-└── renv.lock
+└── README.md
 ```
 
 ## Software Environment
 
 The analytical workflow was implemented in R.
 
-Detailed software versions, package dependencies, and
-instructions for reproducing the analyses will be provided
-with the source code.
+Detailed software versions, package dependencies, and reproducibility documentation will be updated.
 
 ## Data Availability
 
-GEO accession information will be updated once available.
+The GEO accession number will be updated once available.
 
 ## Code Availability
 
-Analysis scripts are being prepared for public release
-through this repository.
+The R source code used to generate the main and supplementary figures is publicly available in this repository.
+
+- [Analysis scripts](./scripts/)
+- [Integrated figure-generation script](./scripts/00_Run_all_figures.R)
+- [Analysis instructions](./scripts/README.md)
 
 ## Citation
 
-Manuscript and citation information will be updated
-upon publication.
+Spatial transcriptomics of regional response heterogeneity in rectal cancer after neoadjuvant treatment.
+
+Manuscript and citation information will be updated upon publication.
 
 ## License
 
@@ -92,8 +83,8 @@ The source code is distributed under the MIT License.
 
 **Junho Kang, Ph.D.**
 
-Keimyung University Dongsan Medical Center,
-Republic of Korea
+Keimyung University Dongsan Medical Center, Republic of Korea
 
 - Email: junho6399@dsmc.or.kr
 - [Personal Website](https://kangjunho.github.io/Kangsin/)
+- [Research & Code](https://kangjunho.github.io/Kangsin/research-code.html)
